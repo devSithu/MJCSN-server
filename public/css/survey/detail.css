@@ -1,0 +1,269 @@
+.qb-form-table {
+  margin-bottom: 0px;
+}
+
+.qb-card-content {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.qb-survey-detail-table dt {
+  width: 30px;
+  float: left;
+}
+
+.qb-survey-detail-table dd {
+  color: #4d4d4d;
+  width: 760px;
+  display: inline-block;
+}
+
+.qb-detail-dashboard .tooltip {
+  width: 250px;
+}
+
+.btn-triple-group {
+  text-align: right;
+}
+
+a.delete-btn {
+  color: #dc3545;
+}
+
+a.delete-btn:hover {
+  color: #ffffff;
+}
+
+.btn-edit {
+  position: absolute;
+  top: 11px;
+  right: 20px;
+}
+
+.survey-delete, .survey-app {
+  margin-bottom: 3px;
+  font-size: 20px !important;
+}
+
+#btn_download_url_code {
+  float: right;
+  margin: 0px;
+}
+
+.box-10 {
+  background-color: #EFF2F7 !important;
+  width: 6% !important;
+  vertical-align: top !important;
+}
+
+.survey_require {
+  color: red;
+}
+
+.panel {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  padding: 10px 15px;
+}
+
+.panel .panel-body {
+  padding-top: 0;
+}
+
+.panel .panel-heading ._can_delete_icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #333;
+}
+
+.panel .panel-heading .btn-visitor-edit {
+  position: absolute;
+  top: 0;
+  right: 35px;
+  color: #333;
+}
+
+a._can_download_icon {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  color: #333;
+}
+
+a[title="JavaScript charts"] {
+  display: none !important;
+}
+
+.static_answer .amcharts-chart-div {
+  height: 350px !important;
+}
+
+.table-word-break tbody td {
+  word-break: break-word;
+}
+
+.survey-noti {
+  color: #FF6565;
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.qb-modal-body {
+  padding-top: 10px !important;
+}
+
+#list_survey_question {
+  list-style-type: none;
+  padding: 0px;
+}
+
+#list_survey_question li ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+#list_survey_question li.head {
+  background-color: #EFF2F7;
+  border: 1px solid #D6DEE5;
+  border-right: none !important;
+  line-height: 20px;
+}
+
+#list_survey_question li div {
+  border-right: 1px solid #D6DEE5;
+  padding: 10px;
+}
+
+#list_survey_question li.question div.q-content {
+  border-bottom: 1px solid #D6DEE5;
+  border-right: 1px solid #D6DEE5;
+  border-left: 1px solid #D6DEE5;
+}
+
+#list_survey_question li div.q-content {
+  padding: 0px;
+}
+
+#list_survey_question li div.q-content div {
+  display: table-cell;
+  vertical-align: top;
+  text-align: center;
+}
+
+#list_survey_question li div.q-content div {
+  word-break: break-word;
+}
+
+/* Q1 Q2 */
+
+#list_survey_question li.head div.q-content div:nth-child(1) {
+  width: 61px;
+}
+
+/* name */
+
+#list_survey_question li.head div.q-content div:nth-child(2) {
+  width: 406px;
+  text-align: left;
+}
+
+/* type */
+
+#list_survey_question li.head div.q-content div:nth-child(3) {
+  width: 203px;
+  text-align: left;
+}
+
+/* choices */
+
+#list_survey_question li.head div.q-content div:nth-child(4) {
+  width: 183px;
+  text-align: left !important;
+}
+
+/* link */
+
+#list_survey_question li.head div.q-content div:nth-child(5) {
+  width: 170px;
+}
+
+/* radio */
+
+#list_survey_question li.head div.q-content div:nth-child(6) {
+  width: 62px;
+  border-right: none !important;
+}
+
+#list_survey_question li #list_questions li:nth-child(even) div {
+  background: rgba(239, 242, 247, 0.3);
+}
+
+/* Q1 Q2 */
+
+#list_survey_question li div.q-content div:nth-child(1) {
+  width: 61px;
+}
+
+/* name */
+
+#list_survey_question li div.q-content div:nth-child(2) {
+  width: 406px;
+  text-align: left;
+}
+
+/* type */
+
+#list_survey_question li div.q-content div:nth-child(3) {
+  width: 203px;
+  text-align: left;
+}
+
+/* choices */
+
+#list_survey_question li div.q-content div:nth-child(4) {
+  width: 183px;
+  text-align: left;
+}
+
+/* link */
+
+#list_survey_question li div.q-content div:nth-child(5) {
+  width: 170px;
+  text-align: left !important;
+}
+
+/* radio */
+
+#list_survey_question li div.q-content div:nth-child(6) {
+  width: 62px;
+  border-right: none !important;
+}
+
+#list_survey_question li div.q-split_page {
+  position: relative;
+  border-right: none !important;
+  padding: 0 !important;
+}
+
+#list_survey_question li div.active_split_page {
+  border-bottom: 1px solid #D6DEE5;
+}
+
+#list_survey_question li div.q-split_page .material-icons {
+  left: -35px;
+  cursor: pointer;
+  position: absolute;
+}
+
+#list_survey_question li div.active_split_page {
+  height: 30px;
+  border-bottom: 1px solid #D6DEE5;
+  text-align: center;
+  top: 0px;
+}
+
+#list_survey_question li div.active_split_page .material-icons {
+  color: #333;
+}

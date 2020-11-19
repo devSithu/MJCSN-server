@@ -1,0 +1,41 @@
+#btn_add_dropdown {
+  float: right;
+  margin: 0px;
+}
+
+.dataTables_scrollBody table tfoot {
+  display: none;
+}
+
+.qb-form-table {
+  border-collapse: collapse;
+}
+
+.qb-form-table tfoot tr th {
+  border: 1px solid #D6DEE5;
+  border-top: none;
+  padding: 10px;
+}
+
+.qb-form-table tbody tr:hover td {
+  background-color: #dcf3fb;
+  cursor: pointer;
+}
+
+.qb-list-option {
+  margin-top: 15px;
+}
+
+.qb-row-count {
+  position: absolute;
+  top: 40px;
+  left: 47%;
+}
+
+.qb-list-title {
+  margin: 30px;
+}
+
+.qb-visitor-line {
+  background-color: #ffffff !important;
+}

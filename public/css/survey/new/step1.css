@@ -1,0 +1,24 @@
+.survey-label {
+  background-color: #EFF2F7 !important;
+  width: 30%;
+  vertical-align: top !important;
+}
+
+.material-drag-handle {
+  color: #939CAA;
+}
+
+.date-group {
+  position: relative;
+}
+
+.date-group .qb-custom-select {
+  margin: 0 15px;
+}
+
+.date-group .material-calendar-date {
+  position: absolute;
+  left: 160px;
+  top: 7px;
+  color: #939CAA;
+}

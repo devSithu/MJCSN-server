@@ -1,0 +1,4 @@
+select.form-control {
+  -webkit-appearance: menulist;
+  -moz-appearance: menulist;
+}

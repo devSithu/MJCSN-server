@@ -1,0 +1,32 @@
+
+.icon {
+  width: 50px;
+}
+
+.img {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.text-label {
+  font-size: 14px;
+  margin-top: 50px;
+  text-align: center;
+  color: #636b6f;
+}
+
+.download {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.btn-download {
+  background-color: #e60012;
+  font-size: 12px;
+}
+
+.down {
+  font-size: 12px;
+  padding: 0px 10px;
+  margin: 10px;
+}

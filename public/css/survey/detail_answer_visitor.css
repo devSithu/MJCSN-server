@@ -1,0 +1,78 @@
+.profile {
+  padding: 0 45px;
+}
+
+.qb-detail-dashboard {
+  position: relative;
+  border-radius: 5px;
+}
+
+.qb-detail-dashboard .profile .thumb {
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  background-position-y: 0px;
+}
+
+.qb-detail-dashboard .profile small {
+  padding: 0 15px;
+}
+
+.qb-detail-dashboard .profile small .label {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.qb-detail-dashboard .button-group {
+  position: absolute;
+  top: 10px;
+  right: 40px;
+}
+
+.movelist>li span.text-blue {
+  font-weight: 400;
+}
+
+.send-password-status {
+  position: absolute;
+  top: 32px;
+  left: -4px;
+  text-align: center;
+  width: 125px;
+  font-size: 12px;
+  color: red;
+}
+
+p.info {
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.qb-content-detail-answer {
+  position: relative;
+  border-radius: 5px;
+  margin: 0 0 20px 0;
+  background-color: #fff;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  padding: 15px;
+}
+
+.content-answers {
+  word-break: break-word;
+}
+
+.delete-button {
+  padding-right: 15px;
+}
+
+.qb-warning-icon {
+  color: #FF6565;
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.survey-qb-warning-box {
+  text-align: center;
+}

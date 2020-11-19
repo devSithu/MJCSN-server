@@ -1,0 +1,20 @@
+
+#billTextOne {
+  width: 40px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#billTextTwo {
+  width: 80px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.table-column {
+  width: 40px;
+}

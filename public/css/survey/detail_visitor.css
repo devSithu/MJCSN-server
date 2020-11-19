@@ -1,0 +1,24 @@
+.qb-first-list-visitor-answer {
+  padding-top: 10px !important;
+  margin-top: 0px !important;
+}
+
+.qb-list-option {
+  margin-top: 15px;
+}
+
+.dataTables_filter .md-input {
+  width: 300px;
+}
+
+.qb-visitor-line {
+  background-color: #ffffff !important;
+}
+
+.qb-search-option {
+  border-bottom: 1px solid #D6DEE5;
+}
+
+.qb-form-table tbody tr:hover td {
+  background-color: #dcf3fb;
+}

@@ -1,0 +1,45 @@
+#nav_survey_menu {
+  position: relative;
+  margin-bottom: 7px;
+  border-bottom: 1px solid #D6DDE6;
+}
+
+#slide-active-line {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  background-color: #dc3545;
+  transition: all .3s ease;
+}
+
+#nav_survey_menu .qb-form-text {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav_survey_menu .qb-form-text a {
+  color: #313E51;
+}
+
+#nav_survey_menu .qb-form-text a:active {
+  color: #dc3545;
+}
+
+#nav_survey_menu .qb-form-text-title {
+  float: left;
+}
+
+#nav_survey_menu .qb-form-text-title a {
+  display: block;
+  padding: 15px 20px 8px 20px;
+}
+
+#nav_survey_menu .qb-form-text-title.slide-active a {
+  color: #dc3545;
+}
+
+.content.inExhibition {
+  padding-top: 50px;
+}

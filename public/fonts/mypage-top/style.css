@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?q0rdgv');
+  src:  url('fonts/icomoon.eot?q0rdgv#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?q0rdgv') format('truetype'),
+    url('fonts/icomoon.woff?q0rdgv') format('woff'),
+    url('fonts/icomoon.svg?q0rdgv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-map:before {
+  content: "\e906";
+}
+.icon-stamp-rally:before {
+  content: "\e907";
+}
+.icon-home:before {
+  content: "\e901";
+}
+.icon-payment:before {
+  content: "\e905";
+}
+.icon-close:before {
+  content: "\e904";
+}
+.icon-download:before {
+  content: "\e900";
+}
+.icon-info:before {
+  content: "\e908";
+}
+.icon-access:before {
+  content: "\e90a";
+}
+.icon-point:before {
+  content: "\e90b";
+}
+.icon-session:before {
+  content: "\e90c";
+}
+.icon-ticket:before {
+  content: "\e90d";
+}
+.icon-timetable:before {
+  content: "\e90e";
+}
+.icon-survey:before {
+  content: "\e902";
+}
+.icon-logout:before {
+  content: "\e903";
+}

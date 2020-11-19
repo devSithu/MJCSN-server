@@ -1,0 +1,177 @@
+/***********************************
+ * Layout
+ ***********************************/
+.wSelect-el {
+	width: 0!important;;
+	height: 0!important;
+	padding: 0;
+	margin: 0;
+	border: none;
+	overflow: hidden;
+}
+.wSelect {
+	position: relative;
+	display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: middle;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.wSelect-arrow {
+	position: absolute;
+	width: 30px;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: 0px center;
+}
+.wSelect-hover .wSelect-arrow,
+.wSelect-active .wSelect-arrow  {
+	/*background-position: -30px center;*/
+}
+.wSelect.wSelect-multiple {
+	overflow: hidden;
+}
+.wSelect-selected {
+	margin: 0 35px 0 5px;
+	padding: 5px;
+	overflow: hidden;
+	white-space: nowrap;
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+.wSelect-options-holder {
+	position: absolute;
+	display: none;
+	left: 0px;
+	z-index: 200;
+	overflow: hidden;
+}
+.wSelect-multiple .wSelect-options-holder {
+	position: relative !important;
+	display: block !important;
+	top: auto !important;
+	z-index: auto !important;
+	border: none !important;
+}
+.wSelect-options {
+	/*overflow-y: scroll;*/
+	overflow-x: hidden;
+}
+.wSelect-option {
+	background-repeat: no-repeat;
+	background-position: 5px center;
+	margin-bottom: 1px;
+	cursor: pointer;
+}
+.wSelect-option-last {
+	margin-bottom: 0px;
+}
+.wSelect-option-value {
+	margin: 0 5px;
+	padding: 5px;
+	background-repeat: no-repeat;
+	background-position: 0 center;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.wSelect-option-disabled .wSelect-option-value {
+	filter: alpha(opacity=20);
+	opacity: 0.2;
+}
+.wSelect-option-icon {
+	padding-left: 40px;
+	background-image: url("/img/data-type-icon-checkbox.png");
+	background-size: 24px;
+	background-position: 5px;
+}
+
+/***********************************
+ * Theme - classic
+ ***********************************/
+.wSelect-theme-qb.wSelect {
+    width: 100%;
+    border: 1px solid #D6DEE5;
+    /* background-image: linear-gradient(#01acf3, #01acf3), linear-gradient(#D2D2D2, #D2D2D2); */
+    background-size: 0 2px, 100% 1px;
+    background-repeat: no-repeat;
+    background-position: center bottom, center calc(100% - 1px);
+    background-color: transparent !important;
+    transition: background 0s ease-out !important;
+    float: none !important;
+    box-shadow: none !important;
+    border-radius: 4px;
+    color: #555 !important;
+    height: 36px;
+    padding-left: 0 !important;
+    padding-bottom: 5px !important;
+}
+.wSelect-arrow {
+	background-image: url('../../img/ic_keyboard_arrow_down.svg');
+}
+.wSelect-theme-qb.wSelect-active {
+    outline: none !important;
+    background-image: linear-gradient(#01acf3, #01acf3), linear-gradient(#D2D2D2, #D2D2D2) !important;
+    background-size: 100% 2px, 100% 1px !important;
+    box-shadow: none;
+    transition-duration: 0.3s !important;
+}
+.wSelect-theme-qb .wSelect-options-holder {
+	background-color: #FAFAFA;
+	border: solid #CACACA 1px;
+	width: 100%;
+        margin-top: 7px;
+}
+.wSelect-theme-qb .wSelect-options {
+	border: solid #FAFAFA 1px;
+	border-radius: 4px;
+    -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+.wSelect-theme-qb .wSelect-option {
+	background-color: #FFF;
+	color: #333;
+}
+.wSelect-theme-qb .wSelect-option-disabled {
+	background-color: #FFF !important;
+	color: #333 !important;	
+}
+.wSelect-theme-qb .wSelect-option-selected,
+.wSelect-theme-qb .wSelect-option:hover {
+	background-color: #dcf3fb;
+}
+
+/***********************************
+ * Labels
+ ***********************************/
+.wLabel-top,
+.wLabel-left,
+.wLabel-left-top {
+    vertical-align: middle;
+    font-size: 10px;
+    line-height: 16px;
+    color: #999;
+    display: block;
+    margin: 5px 0 3px 3px;
+}
+.wLabel-left-top {
+    vertical-align: top;
+}
+@media screen and (min-width: 600px) {
+    .wLabel-left,
+    .wLabel-left-top {
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+        width: 70px;
+        text-align: right;
+        margin: 0 0 7px 0;
+    }
+}
